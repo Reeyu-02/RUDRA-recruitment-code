@@ -1,17 +1,23 @@
 # RUDRA-recruitment-code
+RHEA SINGH RA2511026010336
+
+CSE AI/ML(1st year)
+
 SOLUTION- LOGIC BEHIND THE CODE
 
-Understanding(what I understood of the problem):-
+Understanding (what I understood of the problem):-
 
+AIM:
 * To decode the GPS position of the rover from the datasheet and that would be the starting position of the rover for this code.
 * I have to write a path planning algorithm code for the rover to start from the decoded GPS position to the end goal given, with precise directions with respect to  direction, time and wheel parameters.
 
-Thought Process(what direction I would approach to code accordig to):-
-* First I would extract information from the datasheet like the wheel parameters, longitude, latitude,height, time, velocity and the direction which it's heading to with the nav pvt message from the datasheet.
+THOUGHT PROCESS (what direction I would approach to code accordig to):-
+* TASK 1: First I would extract information from the datasheet like the wheel parameters, longitude, latitude,height, time, velocity and the direction which it's heading to with the nav pvt message from the datasheet.
 * Then I will convert the lon-lat coordinates of the rover to actual position and place(ENU).
-* Using graph I would simplify the position coordinates and distance from the end point.
-* Generating motion commands like rotate in static motion, move forward, turn specific angles at what distance and coordinate.
-* Also generate a code to keep track of total distance travelled, total time taken, and total angular rotation. 
+* TASK 2: Using graph I would simplify the position coordinates and distance from the end point.
+* TASK 3: Generating motion commands like rotate in static motion, move forward, turn specific angles at what distance and coordinate.
+* Also generate a code to keep track of total distance travelled, total time taken, and total angular rotation.
+* TASK 4: To write the code and run.
 
 Implementation(How did i think to apply the above thought process):-
 * To even start the coding from start position, we need to know its current coordinates and distance from the end point.
