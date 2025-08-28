@@ -1,5 +1,6 @@
 # RUDRA-recruitment-code
 SOLUTION
+
 Understanding(what I understood of the problem):-
 
 * To decode the GPS position of the rover from the datesheet and that would be the starting position of the rover for this code.
