@@ -8,7 +8,7 @@ Understanding(what I understood of the problem):-
 
 Thought Process(what direction I would approach to code accordig to):-
 * First I would extract information from the datasheet like the wheel parameters, longitude, latitude,height, time, velocity and the direction which it's heading to with the nav pvt message from the datasheet.
-* Then I will convert the coordinates of the rover to actual position and place(ENU).
+* Then I will convert the lon-lat coordinates of the rover to actual position and place(ENU).
 * Using graph I would simplify the position coordinates and distance from the end point.
 * Generating motion commands like rotate in static motion, move forward, turn specific angles at what distance and coordinate.
 * Also generate a code to keep track of total distance travelled, total time taken, and total angular rotation. 
