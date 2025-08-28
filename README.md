@@ -1,5 +1,5 @@
 # RUDRA-recruitment-code
-SOLUTION
+SOLUTION- LOGIC BEHIND THE CODE
 
 Understanding(what I understood of the problem):-
 
